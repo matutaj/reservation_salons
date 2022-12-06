@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+a:hover {
+  opacity: 0.7;
+}
+#logo {
+  font-size: 15px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-family: Bigdey Demo;
+  color: #fff;
+}
+#logo i {
+  font-size: 23px;
+  color: orangered;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #23232e;
+  height: 6vh;
+  font-family: Roboto, sans-serif;
+  width: 100%;
+}
+
+.nav-lista {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.nav-lista li {
+  margin-left: 70px;
+}
+.nav-lista-login {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.nav-lista-login li {
+  margin-left: 20px;
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8) 100%, rgba(0, 0, 0,0.2)),
+    url(.//midia/0294c66785038782bcbc684049fa5b7f.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.boas-vindas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:200px ;
+}
+
+.boas-vindas h2{
+    font-size: 70px;
+    color: #fff;
+    font-weight: 500;
+}
+.boas-vindas  p{
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+
+}
