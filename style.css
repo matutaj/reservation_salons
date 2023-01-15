@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+a:hover {
+  opacity: 0.7;
+}
+#logo {
+  font-size: 15px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-family: Bigdey Demo;
+  color: #fff;
+}
+#logo i {
+  font-size: 23px;
+  color: rgb(226, 98, 24);
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #23232e;
+  height: 6vh;
+  font-family: Roboto, sans-serif;
+  width: 100%;
+}
+
+.nav-lista {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.nav-lista li {
+  margin-left: 70px;
+}
+.nav-lista-login {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.nav-lista-login li {
+  margin-left: 20px;
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8) 100%, rgba(0, 0, 0, 0.2)),
+    url(.//midia/0294c66785038782bcbc684049fa5b7f.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  width: 100%;
+}
+
+.boas-vindas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.boas-vindas h2 {
+  font-size: 70px;
+  color: #fff;
+}
+.boas-vindas p {
+  font-size: 17px;
+  color: #fff;
+  font-family: Roboto;
+}
+#button-reserva {
+  margin-top: 10px;
+  border-radius: 5px;
+  height: 40px;
+  width: 130px;
+  border: none;
+  background-color: chocolate;
+  font-size: 20px;
+  color: #fff;
+}
+#sobre {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+  width: 100%;
+  background-color: burlywood;
+}
+#sobreText {
+  width: 600px;
+  text-align: justify;
+}
+#sobreText h2 {
+  line-height: 48px;
+  font-size: 25px;
+  font-family: Roboto;
+  color: #fff;
+}
+#sobreText button {
+  margin-top: 20px;
+  border-radius: 5px;
+  height: 37px;
+  width: 130px;
+  border: none;
+  background-color: chocolate;
+  font-size: 20px;
+  color: #fff;
+}
+#sobreText p {
+  line-height: 20px;
+  font-size: 14px;
+  font-family: Roboto;
+}
+#sobreImagem img {
+  width: 450px;
+  height: auto;
+}
+.utilizar {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#titulo {
+  text-align: center;
+  margin-top: 39px;
+  font-size: 26px;
+  font-family: Roboto;
+}
+.utilizar div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 230px;
+}
+.utilizar div img {
+  width: 140px;
+}
+.utilizar div p {
+  font-size: 13px;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 15px;
+}
+.plano {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.plano div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 230px;
+  height: 200px;
+  border: 2px solid chocolate;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: justify;
+}
+.plano div span {
+  font-size: 40px;
+  font-weight: 900;
+  padding: 20px;
+}

@@ -5,66 +5,116 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Redes de Salões</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav>
-      <a href="#"><li>Sobre</li></a>
-      <a href="Salões.html"><li>Salões</li></a>
-      <a href="Reserva.html"><li>Reservar</li></a>
-      <a href="login.html"> <li>login</li></a>
-    </nav>
-
-    <div>
-      <h2>Redes de Salões</h2>
-      <p>Venha desfrutar dos nossos Serviços</p>
-      <p>O Melhor lugar onde Você Pode Reservar e Escolher o seu corte</p>
-      <img
-        src="Banner-Blog-Post-Salao-de-Beleza.png"
-        alt="Ocorreu um erro com a imagem"
-        width="340"
-      />
-    </div>
-    <section>
-      <div id="sobre">
-        <h2>Sobre Nós</h2>
-        <p>
-          Redes de Salões é uma aplicação onde você localiza salões de beleza e
-          barbearia mais próximo si para fazer a reservar de qualquer serviço
-          disponível
-        </p>
-        <p>
-          Também é uma plataforma onde os salões e barbearia fazer a postagem
-          dos seus Serviços, aqui você cadastra o seu salão para aumentar os
-          seus clietes
-        </p>
-
-        <p>
-          Use a nossa plataforma para evitar o stress e fazer tudo apartir de
-          casa!
-        </p>
-        <video width="520" height="340" controls>
-          <source src="ZB-Parte Informativa.mp4" /></video
-        ><br />
+    <header>
+      <nav>
+        <span id="logo">Rede<i>@</i>Salão</span>
+        <ul class="nav-lista">
+          <li><a href="#">Sobre</a></li>
+          <li><a href="Salões.html">Salões</a></li>
+          <li><a href="Reserva.html">Reservar</a></li>
+        </ul>
+        <ul class="nav-lista-login">
+          <li><a href="login.html">Login</a></li>
+          <li><a href="login.html">Cadastro</a></li>
+        </ul>
+      </nav>
+      <div class="boas-vindas">
+        <h2>Rede de Salões</h2>
+        <p>Venha desfrutar dos nossos Serviços</p>
+        <p>O Melhor lugar onde Você Pode Reservar e Escolher o seu corte</p>
+        <div>
+          <button id="button-reserva">Reservar</button>
+        </div>
       </div>
-      <div id="imagem_center">
-        <img
-          src="Banner-Blog-Post-Salao-de-Beleza.png"
-          alt="Ocorreu um erro com a imagem"
-          width="340"
-        /><br />
-        <img
-          src="0294c66785038782bcbc684049fa5b7f.jpg"
-          alt="Ocorreu um erro com a imagem"
-          width="340"
-        /><br />
+    </header>
+    <h2 id="titulo">Por que Usar o Nosso app</h2>
+    <section class="utilizar">
+      <div>
+        <img src="midia/smartphone.png" alt="Ocorreu um erro com a imagem" />
+        <p>Podes agendar no nosso aplicativo, não importa o lugar e a hora.</p>
+      </div>
+      <div>
+        <img src="midia/smartphone.png" alt="Ocorreu um erro com a imagem" />
+        <p>escolhas os salões mais próximos de si.</p>
+      </div>
+      <div>
+        <img src="midia/smartphone.png" alt="Ocorreu um erro com a imagem" />
+        <p>O melhor app que você tem agora! Vamos em todo País.</p>
       </div>
     </section>
+    <section>
+      <div id="sobre">
+        <div id="sobreText">
+          <h2>Sobre Nós</h2>
+          <p>
+            Redes de Salões é uma aplicação onde você localiza salões de beleza
+            e barbearia mais próximo si para fazer a reservar de qualquer
+            serviço disponível
+          </p>
+          <p>
+            Também é uma plataforma onde os salões e barbearia fazer a postagem
+            dos seus Serviços, aqui você cadastra o seu salão para aumentar os
+            seus clietes
+          </p>
 
+          <p>
+            Use a nossa plataforma para evitar o stress e fazer tudo apartir de
+            casa!
+          </p>
+          <button>Ver Salões</button>
+        </div>
+        <div id="sobreImagem">
+          <img
+            src="midia/Banner-Blog-Post-Salao-de-Beleza.png"
+            alt="Ocorreu um erro com a imagem"
+          />
+        </div>
+      </div>
+    </section>
+    <h2 id="titulo">
+      Escolha o seu Pacote para associar <br />
+      o teu salão à nossa rede
+    </h2>
+    <section class="plano">
+      <div>
+        <h2>Plano Básico</h2>
+        <span>20.000 kzs</span>
+        <button id="button-reserva">Adquira</button>
+      </div>
+      <div>
+        <h2>Plano Essencial</h2>
+        <span>45.000 kzs</span>
+        <button id="button-reserva">Adquira</button>
+      </div>
+      <div>
+        <h2>Plano Premium</h2>
+        <span>50.000 kzs</span>
+        <button id="button-reserva">Adquira</button>
+      </div>
+    </section>
+    <video width="520" height="340" controls>
+      <source src="midia/ZB-Parte Informativa.mp4" /></video
+    ><br />
+    <div id="imagem_center">
+      <img
+        src="midia/Banner-Blog-Post-Salao-de-Beleza.png"
+        alt="Ocorreu um erro com a imagem"
+        width="340"
+      /><br />
+      <img
+        src="midia/0294c66785038782bcbc684049fa5b7f.jpg"
+        alt="Ocorreu um erro com a imagem"
+        width="340"
+      /><br />
+    </div>
     <section>
       <h2 class="saloes">Salões Mais Solicitados</h2>
       <div>
         <img
-          src="2018-12-04-dicas-para-limpeza-de-salao-de-beleza.jpg"
+          src="/midia/2018-12-04-dicas-para-limpeza-de-salao-de-beleza.jpg"
           alt="Ocorreu um erro com a imagem"
           width="340"
         />
@@ -72,7 +122,7 @@
       </div>
       <div>
         <img
-          src="shutterstock_1444948637.jpg"
+          src="/midia/decoracao-de-salao-de-beleza.jpg"
           alt="Ocorreu um erro com a imagem"
           width="340"
         />
@@ -80,25 +130,8 @@
       </div>
     </section>
 
-    <audio
-      src="HINO-45-ANOS-DE-INDEPENDÊNCIA-DE-ANGOLA.mp3"
-      autoplay="true"
-      controls
-    ></audio>
+    <audio src="/midia/HINO-45-ANOS-DE-INDEPENDÊNCIA-DE-ANGOLA.mp3">
+      controls >
+    </audio>
   </body>
-
-  <style>
-    nav {
-      background-color: chocolate;
-    }
-    #sobre {
-      text-align: center;
-    }
-    .saloes {
-      font-family: Arial, Helvetica, sans-serif;
-    }
-    p {
-      font-size: 17px;
-    }
-  </style>
 </html>
