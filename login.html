@@ -4,23 +4,49 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Redes de Salões</title>
   </head>
   <body>
-    <nav>
-      <a href="index.html"><li>Sobre</li></a>
-      <a href="Salões.html"><li>Salões</li></a>
-      <a href="Reserva.html"><li>Reservar</li></a>
-      <a href="#"> <li>login</li></a>
-    </nav>
-    <h1>Login</h1>
-
-    <form action="#">
-      <label for="email">Email</label> <br />
-      <input type="email" id="email" name="email" /> <br />
-      <label for="password">Palavra passe</label> <br />
-      <input type="password" name="passeword" id="passeword" />
-      <button>Entrar</button>
-    </form>
+    <header>
+      <nav>
+        <span id="logo">Rede<i>@</i>Salão</span>
+        <ul class="nav-lista">
+          <li><a href="index.html">Sobre</a></li>
+          <li><a href="Salões.html">Salões</a></li>
+          <li><a href="Reserva.html">Reservar</a></li>
+        </ul>
+        <ul class="nav-lista-login">
+          <li><a href="login.html">Login</a></li>
+          <li><a href="login.html">Cadastro</a></li>
+        </ul>
+      </nav>
+      <form action="#" id="telaLogin">
+        <h1 style="color: #f1f1f1; font-family: Roboto">Login</h1>
+        <span
+          id="logo"
+          style="color: #23232e; font-weight: bolder; margin-top: -20px"
+          >Rede<i style="color: #f1f1f1">@</i>Salão</span
+        >
+        <div class="form">
+          <label for="email">Email</label> <br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Insira o seu email"
+          />
+          <br />
+          <label for="password">Palavra passe</label> <br />
+          <input
+            type="password"
+            name="passeword"
+            id="passeword"
+            placeholder="Insira a sua palavra passe"
+          />
+        </div>
+        <button id="buttonEnter">Entrar</button>
+      </form>
+    </header>
   </body>
 </html>
