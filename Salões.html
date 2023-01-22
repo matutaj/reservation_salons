@@ -5,18 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Redes de Salões</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav>
-      <a href="index.html"><li>Sobre</li></a>
-      <a href="#"><li>Salões</li></a>
-      <a href="Reserva.html"><li>Reservar</li></a>
-      <a href="login.html"> <li>login</li></a>
-    </nav>
-    <h1>Listagem de todos os Salões!</h1>
+    <header>
+      <nav>
+        <span id="logo">Rede<i>@</i>Salão</span>
+        <ul class="nav-lista">
+          <li><a href="index.html">Sobre</a></li>
+          <li><a href="Salões.html">Salões</a></li>
+          <li><a href="Reserva.html">Reservar</a></li>
+        </ul>
+        <ul class="nav-lista-login">
+          <li><a href="login.html">Login</a></li>
+          <li><a href="login.html">Cadastro</a></li>
+        </ul>
+      </nav>
 
-    <section>
-      <h2>Salões da nossa plataforma</h2>
+      <div class="pesquisar">
+        <input
+          type="text"
+          name=""
+          id="Pesquisarsalao"
+          placeholder="Pesquisar Salões"
+        />
+        <button>Pesquisar</button>
+      </div>
+    </header>
+
+    <h2 id="titulo">Listagem de todos os Salões</h2>
+    <br /><br /><br />
+    <section class="SaloeListagem">
       <div>
         <img
           src="midia/2018-12-04-dicas-para-limpeza-de-salao-de-beleza.jpg"

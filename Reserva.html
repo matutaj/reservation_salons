@@ -5,68 +5,104 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Redes de Salões</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav>
-      <a href="index.html"><li>Sobre</li></a>
-      <a href="Salões.html"><li>Salões</li></a>
-      <a href="#"><li>Reservar</li></a>
-      <a href="login.html"> <li>login</li></a>
-    </nav>
-    <h1>Fazer Reserva nos Salões mais próximos!</h1>
-    <form action="#">
-      <label for="corte">Seleciona Seu Corte</label> <br />
-      <select id="selicionarCorte">
-        <optgroup label="Cortes de Homens">
-          <option value="1">Panck</option>
-          <option value="2">Francês</option>
-          <option value="3">Scovinho cheio</option>
-          <option value="4">Careca</option>
-          <option value="5">Galo Torto</option>
-        </optgroup>
+    <header>
+      <nav>
+        <span id="logo">Rede<i>@</i>Salão</span>
+        <ul class="nav-lista">
+          <li><a href="index.html">Sobre</a></li>
+          <li><a href="Salões.html">Salões</a></li>
+          <li><a href="#">Reservar</a></li>
+        </ul>
+        <ul class="nav-lista-login">
+          <li><a href="login.html">Login</a></li>
+          <li><a href="login.html">Cadastro</a></li>
+        </ul>
+      </nav>
+      <h2 id="titulo" style="color: #ffffff; font-weight: bolder">
+        Fazer Reserva nos Salões mais próximos!
+      </h2>
+      <form action="#" class="reservar">
+        <div class="infoLogin">
+          <h2 style="color: #f1670b; font-weight: bolder">
+            Faça a Sua Reserva
+          </h2>
+          <span style="color: #23232e; font-weight: bolder; text-align: center"
+            >Agora já pode agendar o seu corte onde quiseres<br />
+            e a qualquer hora</span
+          >
+          <br />
+          <span id="logo" style="color: #23232e; font-weight: bolder"
+            >Rede<i>@</i>Salão</span
+          >
+        </div>
+        <div class="infoReserva">
+          <label for="corte" id="labelReserva">Seleciona Seu Corte</label>
+          <br />
+          <select id="selicionarCorte">
+            <optgroup label="Cortes de Homens">
+              <option value="1">Panck</option>
+              <option value="2">Francês</option>
+              <option value="3">Scovinho cheio</option>
+              <option value="4">Careca</option>
+              <option value="5">Galo Torto</option>
+            </optgroup>
 
-        <optgroup label="Cortes de Mulher">
-          <option value="1">Sanguita</option>
-          <option value="2">Crespo</option>
-          <option value="3">Virada</option>
-          <option value="4">Aplicação de Tiçagem</option>
-          <option value="5">Enroladinho</option>
-        </optgroup>
-      </select>
-      <br />
-      <label for="Nome do Salão">Selecione seu Salão</label> <br />
-      <select id="selicionarCorte">
-        <optgroup label="Salões Existente">
-          <option value="1">Mazid Design</option>
-          <option value="2">Oscar Bar</option>
-          <option value="3">Dona Mália</option>
-          <option value="4">Crespo LIndo</option>
-          <option value="5">Dorí Pilson</option>
-        </optgroup>
-      </select>
-      <br />
+            <optgroup label="Cortes de Mulher">
+              <option value="1">Sanguita</option>
+              <option value="2">Crespo</option>
+              <option value="3">Virada</option>
+              <option value="4">Aplicação de Tiçagem</option>
+              <option value="5">Enroladinho</option>
+            </optgroup>
+          </select>
+          <br />
+          <label for="Nome do Salão" id="labelReserva"
+            >Selecione seu Salão</label
+          >
+          <br />
+          <select id="selicionarCorte">
+            <optgroup label="Salões Existente">
+              <option value="1">Mazid Design</option>
+              <option value="2">Oscar Bar</option>
+              <option value="3">Dona Mália</option>
+              <option value="4">Crespo LIndo</option>
+              <option value="5">Dorí Pilson</option>
+            </optgroup>
+          </select>
+          <br />
 
-      <label for="Horas Disponíveis">Selecione o Horário</label> <br />
-      <select id="selicionarCorte">
-        <optgroup label="">
-          <option value="1">Mazid Design</option>
-          <option value="2">Oscar Bar</option>
-          <option value="3">Dona Mália</option>
-          <option value="4">Crespo LIndo</option>
-          <option value="5">Dorí Pilson</option>
-        </optgroup>
-      </select>
-      <br />
-      <label for="Nome">Nome</label> <br />
-      <input
-        type="Nome"
-        id="Nome"
-        name="Nome"
-        placeholder="Digite o seu nome"
-      />
-      <br />
+          <label id="labelReserva" for="Horas Disponíveis"
+            >Selecione o Horário</label
+          >
+          <br />
+          <select id="selicionarCorte">
+            <optgroup label="">
+              <option value="1">Mazid Design</option>
+              <option value="2">Oscar Bar</option>
+              <option value="3">Dona Mália</option>
+              <option value="4">Crespo LIndo</option>
+              <option value="5">Dorí Pilson</option>
+            </optgroup>
+          </select>
+          <br />
+          <label for="Nome" id="labelReserva" style="margin-left: -110px"
+            >Nome</label
+          >
+          <br />
+          <input
+            type="Nome"
+            id="Nome"
+            name="Nome"
+            placeholder="Digite o seu nome"
+          />
+          <br />
 
-      <button>Entrar</button>
-    </form>
+          <button id="buttonEnter">Entrar</button>
+        </div>
+      </form>
+    </header>
   </body>
 </html>
